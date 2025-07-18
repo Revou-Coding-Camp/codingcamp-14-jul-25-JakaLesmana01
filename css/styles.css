@@ -1,0 +1,15 @@
+.bg-yellow{
+    background-color: #ffc108;
+}
+
+.text-yellow{
+    color:#ffc108
+}
+
+.hover\:bg-yellow:hover{
+    background-color:#d1a00c
+}
+
+.text-hitam{
+    color:#333333
+}

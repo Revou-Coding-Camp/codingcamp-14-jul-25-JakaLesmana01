@@ -16,77 +16,118 @@
 
   <body>
     <!-- NAVIGASI BAR -->
-    <nav
-      class="sticky top-0 z-50 bg-white shadow-md dark:bg-gray-800 dark:text-white"
-    >
+    <nav class="sticky top-0 z-50 bg-white shadow-md text-hitam">
       <div
         class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center"
       >
-        <h1 class="font-medium">Jaka Lesmana</h1>
+        <div class="flex items-center space-x-4">
+          <img
+            src="assets/img/Burger_Kingpng.png"
+            alt="logo perusahaan"
+            class="h-8 w-8 object-contain"
+          />
+          <h1 class="font-medium">Team Jaka</h1>
+        </div>
         <ul class="hidden md:flex space-x-6 font-medium">
           <li><a href="#home" class="hover:text-blue-500">Home</a></li>
-          <li><a href="#about" class="hover:text-blue-500">About</a></li>
+          <li><a href="#about" class="hover:text-blue-500">Visi dan Misi</a></li>
           <li><a href="#skills" class="hover:text-blue-500">Skills</a></li>
           <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
         </ul>
       </div>
     </nav>
     <!--FIRST PAG -->
-    <section id="home">
+    <section id="home" class="bg-yellow text-white">
       <h1
-        class="py-9 text-4xl text-gray-800 animate-pulse font-bold text-center"
+        class="py-9 text-4xl text-white animate-pulse font-bold text-center"
       >
         Hi, <span id="namaUser">....</span>
       </h1>
-      <p class="text-base text-center">Selamat datang di website kami</p>
+      <p class="text-2xl text-center font-semibold py-3">
+        Selamat datang di website kami
+      </p>
     </section>
-    <section id="about" class="px-6 py-16 bg-gray-100 shadow-md">
-      <div class="max-w-4xl mx-auto text-center">
-        <h2 class="text-3xl font-bold mt-4 mb-2">About Me</h2>
-        <p class="text-lg leading-relaxed">
-          Halo, gue
-          <span class="font-semibold text-blue-600 dark:text-blue-400"
-            >Jaka Lesmana</span
-          >
-          — seorang kreator digital yang doyan belajar dan ngulik teknologi. Gue
-          suka ngerancang UI yang clean, nulis hal-hal ringan tapi ngena, dan
-          bantu orang-orang yang lagi belajar kayak gue.
-        </p>
-        <p class="mt-4 text-base">
-          Lagi fokus ngembangin skill front-end web pake HTML, CSS, JavaScript,
-          sama Tailwind. Portofolio ini salah satu langkah kecil gue buat bangun
-          branding, biar dikenal karena karya, bukan cuma gaya.
-        </p>
-      </div>
-    </section>
-    <section id="skills" class="px-6 py-16 bg-white">
-      <div class="max-w-6xl mx-auto text-center">
-        <h2 class="text-3xl font-bold mb-10">Skills</h2>
-        <div class="grid grid-cols-3 md:grid gap-6">
-          <div
-            class="p-6 bg-gray-100 rounded-lg shadow-md hover:scale-105 transition-transform"
-          >
-            <img src="assets/img/html.png" alt="" />
-            <p class="mt-2 font-medium">HTML</p>
+    <section id="about" class="px-6 py-16 bg-white shadow-md text-hitam">
+      <div
+        class="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items start gap-8"
+      >
+        <div class="flex-shrink-0">
+          <img
+            src="assets/img/profilJaka.png"
+            alt="foto jaka lesmana"
+            class="rounded-full md:h-60 object-hover shadow-lg max-auto"
+          />
+        </div>
+        <div class="text-center md:text-left">
+          <h2 class="text-3xl font-bold mt-4 mb-2  ">Visi dan Misi</h2>
+
+          <!-- VISI -->
+          <div class="mb-8">
+            <h3 class="text-2xl font-semibold mb-2 ">Visi</h3>
+            <p class="text-base leading-relaxed">
+              Menjadi <strong>Software Engineer</strong> yang tidak hanya ahli
+              dalam teknologi, tapi juga mampu menciptakan solusi digital yang
+              mampu berdampak, inovatif dan bermafaat untuk masyarakat luas.
+            </p>
           </div>
-          <div
-            class="p-6 bg-gray-100 rounded-lg shadow-md hover:scale-105 transition-transform"
-          >
-            <img src="assets/img/text.png" alt="" />
-            <p class="mt-2 font-medium">CSS</p>
-          </div>
-          <div
-            class="p-6 bg-gray-100 rounded-lg shadow-md hover:scale-105 transition-transform"
-          >
-            <img src="assets/img/js.png" alt="" />
-            <p class="mt-2 font-medium">JS</p>
+          <div>
+            <h3 class="text-2xl font-semibold mb-2 ">Misi</h3>
+            <ul
+              class="text-left list-disc list-inside space-y-2 text-base leadeing-relaxed"
+            >
+              <li>
+                Menguasai fundamental dan teknologi terkini dalam pemograman web
+                dan software development.
+              </li>
+              <li>
+                Membangun portofolio nyata melalui proyek-proyek pribadi dan
+                kolaboratif.
+              </li>
+              <li>
+                Belajar dengan konsisten dan terbuka terhadap perubahan
+                teknologi.
+              </li>
+              <li>
+                Berbagi pengetahuan melalui konten kreatif seperti blog, vidio
+                atau mentorin.
+              </li>
+              <li>
+                Menerapkan etika kerja profesional, disiplin, tanggung jawab dan
+                semangat seumur hidup.
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </section>
-    <section id="contact" class="px-6 py-16 bg-gray-100">
+    <section id="skills" class="px-6 py-16 bg-yellow text-white">
+      <div class="max-w-6xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-10">Skills</h2>
+        <div class="grid grid-cols-3 md:grid gap-6">
+          <div
+            class="p-6 bg-white rounded-lg shadow-md hover:scale-105 transition-transform"
+          >
+            <img src="assets/img/html.png" alt="" />
+            <p class="mt-2 font-medium text-yellow">HTML</p>
+          </div>
+          <div
+            class="p-6 bg-white rounded-lg shadow-md hover:scale-105 transition-transform"
+          >
+            <img src="assets/img/text.png" alt="" />
+            <p class="mt-2 font-medium text-yellow">CSS</p>
+          </div>
+          <div
+            class="p-6 bg-white rounded-lg shadow-md hover:scale-105 transition-transform"
+          >
+            <img src="assets/img/js.png" alt="" />
+            <p class="mt-2 font-medium text-yellow">JS</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="px-6 py-16 bg-yello">
       <div class="max-w-xl mx-auto">
-        <h2 class="text-3xl font-bold text-center mb-6">Massage Us</h2>
+        <h2 class="text-3xl font-bold text-center mb-6 text-yellow">Massage Us</h2>
         <form id="contactForm" class="space-y-4">
           <input
             type="text"
@@ -107,7 +148,7 @@
           ></textarea>
           <button
             type="submit"
-            class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700"
+            class="w-full bg-yellow text-white py-2 rounded-lg hover:bg-gray-700"
           >
             Kirim pesan
           </button>

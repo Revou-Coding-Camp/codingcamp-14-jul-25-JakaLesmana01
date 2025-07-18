@@ -2,7 +2,7 @@
 const nama=prompt("Hallo siapa nama kamu?")
 const namaE1=document.getElementById("namaUser");
 if(namaE1){
-    namaE1.textContent= nama ? nama :"Teman Jaka";
+    namaE1.textContent= nama ? nama :"Team Jaka";
 }
 
 // FORM CONTACT VALIDASI(LOGIC)
